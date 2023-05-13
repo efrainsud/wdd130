@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+:root {
+    --primary-color: #011936;
+    --secondary-color: #F6F7EB;
+    --accent1-color: #FF8A5B;
+    --accent2-color: #717C89;
+
+    --heading-font: 'Lora', serif;
+    --paragraph-font: 'Lora', serif;
+
+    --nav-background-color: #011936;
+    --nav-link-color: #F6F7EB;
+    --nav-hover-link-color: #FF8A5B;
+    --nav-hover-background-color: #717C89;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  /* Rest of the CSS code */
+  
+  /* Styling Headings and Paragraphs */
+  h1, h2, h3, h4, h5, h6 {
+    color: var(--primary-color);
+  }
+  
+  p {
+    font-family: var(--paragraph-font);
+    color: var(--accent2-color);
+  }
+  
+  /* Removing Underlines from Social Media Links */
+  .sociallinks a {
+    text-decoration: none;
+  }
+  
+  /* Styling the Hero Container */
+  .hero {
+    position: relative;
+  }
+  
+  .hero img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  h1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+
+  .social-icon {
+    width: 50px;
+    height: auto;
+  }
+  
+  article {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    width: 70%; /* Adjust the width as desired */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Rest of the CSS code */
+
+  
+  article .content {
+    display: flex;
+    align-items: center;
+  }
+  
+  article .content p {
+    margin: 0;
+  }
+  
+  article .content img {
+    width: 150px;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  
+  section {
+    margin-top: 20px;
+  }
+  
+  section img {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
