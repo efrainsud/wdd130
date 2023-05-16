@@ -139,7 +139,6 @@ figure img {
 figure {
     margin: 1em;
     color: var(--accent1-color);
-    /* opacity: .8; */
     font-size: small;
     /* background-color: var(--nav-background-color); */
     border-radius: .3em;
