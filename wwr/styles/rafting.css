@@ -40,6 +40,7 @@ header > img {
 p {
     color: var(--nav-link-color);
     margin: 0;
+    padding: .5em;
 }
 header nav {
     grid-column: 3/7;
@@ -193,10 +194,10 @@ figcaption {
 .our-team div {
     display: flex;
 }
-.our-team figure {
+/* .our-team figure {
     width: 18rem;
     align-items: center;
-}
+} */
 #grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -254,4 +255,10 @@ button:hover {
 }
 iframe {
     margin: 1em 0;
+}
+.caps {
+    display:none;
+}
+.figcaption:hover .caps {
+    display: block;
 }
